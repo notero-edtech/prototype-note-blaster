@@ -1,0 +1,34 @@
+{
+    "name": "KeyboardControl",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "9b209a37-b053-4258-8bb4-ff023bb97d74",
+            "actions": [
+                {
+                    "name": "Key",
+                    "type": "Button",
+                    "id": "33685da8-a189-435f-8f74-5c87bae586f2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "76f9a11c-dcd1-441d-8ec0-ae477d10ada0",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
