@@ -64,18 +64,18 @@ public class AssignNote : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.RightShift))
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ResetKeyCheck();
+        }
+
+        while (noteQueue.Count < SpawnCount)
         {
             int randomIndex = Random.Range(0, NotePrefabs.Length);
             GameObject randomPrefab = NotePrefabs[randomIndex];
 
             SelectedNote = randomPrefab;
             SpawnNote();
-        }
-
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            ResetKeyCheck();
         }
     }
 
